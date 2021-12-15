@@ -1,0 +1,7 @@
+To visualize the SQL statements obtained from an eloquent orm query, put the query in between:
+
+ DB::enableQueryLog();
+
+ and
+
+ dd(\DB::getQueryLog());
